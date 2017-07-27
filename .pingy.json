@@ -1,0 +1,13 @@
+{
+	"name": "didactic-happiness-v1",
+	"exportDir": "dist",
+	"minify": true,
+	"compile": true,
+	"exclusions": [
+		{
+			"path": "node_modules",
+			"action": "exclude",
+			"type": "dir"
+		}
+	]
+}
