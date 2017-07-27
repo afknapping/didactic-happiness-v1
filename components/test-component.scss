@@ -1,0 +1,48 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+/**
+ * @atom Headlines
+ * @section Navigation > Basic Content
+ * @description
+ *  Headlines
+ * @modifiers
+ *  .button--alert an alert button
+ * @markup
+ *   <h1>An h1 headline</h1>
+ *   <h2>An h2 headline</h2>
+ *   <h3>An h3 headline</h3>
+ *   <h4>An h4 headline</h4>
+ *   <h5>An h5 headline</h5>
+ *   <h6>An h6 headline</h6>
+ */
+
+
+h1, h2, h3, h4, h5, h6 {
+	border: 1px solid #333;
+	padding: 0.5em;
+}
+
+
+
+
+/**
+ * @atom Paragraph
+ * @section Navigation > Basic Content
+ * @description
+ *  Buttons for various purposes.
+ * @modifiers
+ *  .button--alert an alert button
+ * @markup
+ *   <p>Cupcake ipsum dolor. Sit amet I love bonbon* bear claw tootsie roll jelly.* I love chocolate ice cream* chupa chups I love. Gummi bears I love wafer marzipan.</p>
+ */
+
+ p {
+
+ 	padding: 0.5em;
+ 	border: 1px solid #333;
+ }

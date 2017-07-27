@@ -1,0 +1,13 @@
+{
+  "title": "Didactic Happiness StyleGuide",
+  "files": ["components/**/*.scss"],
+  "css": "/styles/dh.css",
+  "target": "docs",
+  "namespace": "page",
+  "verbose": 3,
+  "counterCSS": null,
+  "staticLipsum": false,
+  "placeholderService": false,
+  "template": "./template"
+}
+

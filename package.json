@@ -5,8 +5,17 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "pingy dev",
-		"export": "pingy export"
+		"start": "pingy dev & npm run watch",
+		"export": "pingy export",
+		"watch": "npm-watch",
+		"generate-styleguide": "nucleus"
+	},
+	 "watch": {
+    	"generate-styleguide": {
+        	"patterns": "components",
+	        "extensions": "css,scss",
+	        "quiet": false
+	    }
 	},
 	"keywords": [],
 	"author": "",
@@ -16,6 +25,8 @@
 		"babel-core": "^6.25.0",
 		"babel-preset-env": "^1.6.0",
 		"node-sass": "^4.5.3",
-		"pug": "^2.0.0-rc.2"
+		"pug": "^2.0.0-rc.2",
+		"npm-watch": "^0.2.0",
+		"nucleus-styleguide": "^1.1.1"
 	}
 }
